@@ -1,0 +1,229 @@
+/*formatacao para o site */
+
+h1 {
+   font-family: 'roboto';
+}
+body {
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position:relative;
+
+}
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+.row {
+    margin: 0;
+}
+.container-fluid {
+    padding: 0;
+}
+.btn-primary {
+    background-color: #f2a340; /*dos botoes saiba mais*/
+    border: 2px solid #c28008;
+}
+.btn-primary:hover {
+    background-color: #c28008; /*dos botoes saiba mais*/
+    border-color: #c28008;
+}
+.msg {/*codigo para mensagem evento com suceso*/
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding:10px;
+
+}
+ #info-container .already-joined-msg {
+    margin: 10px 0;
+    color: #f50b0b;
+    background-color: #ccc ;
+    border: 5px solid #b8daff;
+    padding: 5px;
+    width: 275px;
+}
+/*estilo da navbar da navegacao*/
+
+#navbar img {
+    width: 100px;
+}
+#navbar {
+    justify-content: space-between;
+    background-color: #fff;
+    padding:  10px 0 ;
+
+}
+#navbar a {
+    font-size: 15px;
+    color: #757575;
+}
+#navbar a:hover {    /*parte acesso eventos criar eventos*/
+    color: #f2a340 ;
+    margin: 10px 0;
+    border: 5px solid #b8daff;
+
+
+
+}
+
+/*search container */
+#search-container {
+    background-image:url("../img/banner1.jpg");/*imagem do banner tela */
+    background-size: cover;
+    background-position: center;
+    height:400px;
+    padding:50px;
+    text-align:center;
+}
+
+#search-container h1 {/*formatar busque um evento */
+color: #f2a340;
+margin-bottom: 30px;
+font-weight: 900;
+}
+
+#search-container form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+/*Event list*/
+#events-container {
+    padding:50px;
+}
+
+#events-container h2 {
+    margin-bottom: 10px;
+}
+#events-container .subtitle {
+   color: #757575;
+   margin-bottom: 30px;
+}
+#cards-container {
+    display: flex;
+}
+#events-container .card {
+    flex: 1 1 24%;
+    max-width: 25%;
+    border-radius: 10px;
+    padding: 0;
+    margin: .1%;
+}
+
+#events-container img{/*parte das img as 3*/
+    max-height: 150px;
+    border-top-left-radius: 10px;/*aredondar os cantos*/
+    border-top-right-radius: 10px;
+}
+.card .card-date {
+    font-size: 12px;
+    color: #ccc;
+
+}
+.card .card-title {
+    color: #212121;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+.card-participants {
+    font-size: 14px;
+    color: #757575;
+}
+
+/*formatacao pag de criar eventos*/
+
+#event-create-container{
+    padding: 30px;
+
+}
+#event-create-container label{
+ font-weight: bold;
+}
+#event-create-container input,
+#event-create-container select,
+#event-create-container textarea {
+    font-size: 12px;
+}
+
+/*Css pagina de eventos saber mais*/
+#image-container,
+#info-container {
+    margin-top:30px;
+}
+#image-container img{
+    border-radius:10px;
+}
+#info-container h1 {
+    font-size: 36px;
+    font-weight: 900;
+}
+#info-container p {
+    margin: 0;
+    font-size: 14px;
+    display: flex;
+}
+#info-container h3,
+#description-container h3 {
+    font-size:20px;
+    font-weight:bold;
+}
+#info-container ion-icon {/*para os icones na pag de saber mais*/
+    font-size: 20px;
+    color: #f2a340;
+    margin-right: 5px;
+}
+#info-container #event-submit { /*para espacos no texot pag saber mais*/
+    margin: 20px;
+}
+#items-list {
+    list-style: none;
+    padding-left: 0;
+
+}
+#items-list li {
+    display: flex;
+
+}
+#description-container {
+    margin-top:30px;
+}
+/* dashboard*/
+.dashboard-title-container {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.dashboard-events-container th {
+    width:25% ;
+}
+.dashboard-events-container form{
+    display: inline-block;
+}
+
+/*Para editar os eventos*/
+
+.img-preview {
+    width:100px;
+    margin-top: 20px;
+}
+
+
+
+/*rodape*/
+footer {
+    text-align: center;
+    background-color: #353e48;
+    color:#fff;
+    padding:30px;
+    position:absolute;/*deixar mensagem no fundo*/
+    bottom: 0;
+    width:100%
+}
+footer p {
+    margin-bottom: 0;
+}
+
